@@ -731,7 +731,15 @@ body[dir="rtl"] .copyright {
         font-size: 2rem;
     }
 
-    .contact-card {
+    .contact-card 
+    .arabic-firm-name {
+    margin-bottom: 15px;
+    color: #d4b779;
+    font-family: Cairo, Arial, sans-serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    direction: rtl;
+}
         padding: 28px 22px;
     }
 }
