@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
 
@@ -19,7 +20,15 @@
         content="Abed Al Karim Hijazi Law Office – مكتب عبد الكريم حجازي للمحاماة – is a full-service law firm in Baabda, Lebanon, providing legal advice, representation, contract drafting and dispute resolution since 1992."
     >
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
 
     <link
         rel="preconnect"
@@ -32,7 +41,31 @@
         rel="stylesheet"
     >
 
-    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Abed Al Karim Hijazi Law Office",
+        "alternateName": "مكتب عبد الكريم حجازي للمحاماة",
+        "url": "https://abedalkarimhijazilaw.github.io/Abed-Al-Karim-Hijazi-Law-office/",
+        "telephone": "+9613755909",
+        "foundingDate": "1992",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jamhour Street",
+            "addressLocality": "Baabda",
+            "addressCountry": "LB"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/abed-al-karim-hijazi-law-office/"
+        ]
+    }
+    </script>
 </head>
 
 <body>
@@ -40,9 +73,14 @@
     <!-- HEADER -->
 
     <header class="site-header">
+
         <div class="container nav-wrapper">
 
-            <a href="#home" class="brand">
+            <a
+                href="#home"
+                class="brand"
+                aria-label="Abed Al Karim Hijazi Law Office"
+            >
 
                 <span class="brand-symbol">
                     AH
@@ -59,6 +97,7 @@
                     </small>
 
                 </span>
+
             </a>
 
             <button
@@ -72,27 +111,45 @@
 
             <nav class="main-navigation">
 
-                <a href="#home" data-i18n="navHome">
+                <a
+                    href="#home"
+                    data-i18n="navHome"
+                >
                     Home
                 </a>
 
-                <a href="#about" data-i18n="navAbout">
+                <a
+                    href="#about"
+                    data-i18n="navAbout"
+                >
                     About
                 </a>
 
-                <a href="#services" data-i18n="navServices">
+                <a
+                    href="#services"
+                    data-i18n="navServices"
+                >
                     Services
                 </a>
 
-                <a href="#people" data-i18n="navPeople">
+                <a
+                    href="#people"
+                    data-i18n="navPeople"
+                >
                     Our People
                 </a>
 
-                <a href="#approach" data-i18n="navApproach">
+                <a
+                    href="#approach"
+                    data-i18n="navApproach"
+                >
                     Our Approach
                 </a>
 
-                <a href="#contact" data-i18n="navContact">
+                <a
+                    href="#contact"
+                    data-i18n="navContact"
+                >
                     Contact
                 </a>
 
@@ -100,6 +157,7 @@
                     class="language-switcher"
                     aria-label="Language selector"
                 >
+
                     <button
                         type="button"
                         data-lang="en"
@@ -121,71 +179,117 @@
                     >
                         AR
                     </button>
+
                 </div>
 
             </nav>
+
         </div>
+
     </header>
 
     <main>
 
         <!-- HERO -->
 
-        <section class="hero" id="home">
+        <section
+            class="hero"
+            id="home"
+        >
 
             <div class="hero-overlay"></div>
 
-            <div class="container hero-content">
+            <div class="hero-decoration"></div>
 
-                <p
-                    class="eyebrow"
-                    data-i18n="heroEyebrow"
-                >
-                    Full-service law firm since 1992
-                </p>
+            <div class="container hero-layout">
 
-                <p class="arabic-firm-name">
-                    مكتب عبد الكريم حجازي للمحاماة
-                </p>
+                <div class="hero-content">
 
-                <h1 data-i18n="heroTitle">
-                    Trusted legal counsel in Lebanon and across the Middle East
-                </h1>
-
-                <p
-                    class="hero-description"
-                    data-i18n="heroDescription"
-                >
-                    We provide practical legal advice, strategic
-                    representation, contract drafting and dispute resolution
-                    for individuals, companies and organisations.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a
-                        href="#contact"
-                        class="button button-primary"
-                        data-i18n="heroContact"
+                    <p
+                        class="eyebrow"
+                        data-i18n="heroEyebrow"
                     >
-                        Contact our office
-                    </a>
+                        Independent law firm since 1992
+                    </p>
 
-                    <a
-                        href="#services"
-                        class="button button-outline"
-                        data-i18n="heroServices"
+                    <p class="arabic-firm-name">
+                        مكتب عبد الكريم حجازي للمحاماة
+                    </p>
+
+                    <h1 data-i18n="heroTitle">
+                        Strategic legal counsel.
+                        Clear judgment.
+                        Trusted representation.
+                    </h1>
+
+                    <p
+                        class="hero-description"
+                        data-i18n="heroDescription"
                     >
-                        Explore our services
-                    </a>
+                        We advise individuals, entrepreneurs and businesses
+                        across civil, commercial, corporate, real estate,
+                        family and criminal matters in Lebanon.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#contact"
+                            class="button button-primary"
+                            data-i18n="heroContact"
+                        >
+                            Contact the firm
+                        </a>
+
+                        <a
+                            href="#services"
+                            class="button button-outline"
+                            data-i18n="heroServices"
+                        >
+                            View practice areas
+                        </a>
+
+                    </div>
 
                 </div>
+
+                <aside class="hero-side-card">
+
+                    <span
+                        class="hero-side-label"
+                        data-i18n="heroSideLabel"
+                    >
+                        Based in
+                    </span>
+
+                    <strong data-i18n="heroSideLocation">
+                        Baabda, Lebanon
+                    </strong>
+
+                    <div class="hero-side-line"></div>
+
+                    <p data-i18n="heroSideText">
+                        Serving clients across Lebanon and the Middle East.
+                    </p>
+
+                </aside>
+
             </div>
+
+            <a
+                href="#about"
+                class="scroll-indicator"
+                aria-label="Scroll to about section"
+            >
+                <span></span>
+            </a>
+
         </section>
 
         <!-- STATISTICS -->
 
         <section class="statistics">
+
             <div class="container statistics-grid">
 
                 <div class="statistic">
@@ -225,14 +329,19 @@
                 </div>
 
             </div>
+
         </section>
 
         <!-- ABOUT -->
 
-        <section class="section" id="about">
-            <div class="container two-column-section">
+        <section
+            class="section about-section"
+            id="about"
+        >
 
-                <div>
+            <div class="container about-grid">
+
+                <div class="about-heading">
 
                     <p
                         class="section-label"
@@ -242,7 +351,8 @@
                     </p>
 
                     <h2 data-i18n="aboutTitle">
-                        Legal service built on experience, discretion and trust
+                        A focused legal practice built on experience,
+                        discretion and trust.
                     </h2>
 
                 </div>
@@ -250,27 +360,39 @@
                 <div class="text-content">
 
                     <p data-i18n="aboutParagraph1">
-                        Abed Al Karim Hijazi Law Office is a full-service law
-                        firm based in Baabda, Lebanon. Since 1992, the firm has
-                        advised and represented individuals, companies and
-                        organisations in a broad range of legal matters.
+                        Abed Al Karim Hijazi Law Office is an independent,
+                        full-service law firm based in Baabda, Lebanon.
+                        Since 1992, the firm has advised and represented
+                        individuals, families, companies and organisations
+                        in a broad range of legal matters.
                     </p>
 
                     <p data-i18n="aboutParagraph2">
-                        The firm combines careful legal analysis with practical
-                        advice. We assist clients in negotiations, commercial
-                        transactions, contract matters, disputes and proceedings
-                        before Lebanese courts and public authorities.
+                        The firm combines rigorous legal analysis with
+                        practical judgment. We support clients through
+                        negotiations, transactions, contract matters,
+                        disputes and proceedings before Lebanese courts
+                        and public authorities.
                     </p>
 
                     <p data-i18n="aboutParagraph3">
-                        Our objective is to help clients understand their legal
-                        position, evaluate their options and make informed
-                        decisions with confidence.
+                        Our objective is to provide clear guidance,
+                        protect our clients’ interests and help them make
+                        informed decisions with confidence.
                     </p>
 
+                    <a
+                        href="#people"
+                        class="text-link"
+                        data-i18n="aboutLink"
+                    >
+                        Meet the founder
+                    </a>
+
                 </div>
+
             </div>
+
         </section>
 
         <!-- SERVICES -->
@@ -279,18 +401,33 @@
             class="section services-section"
             id="services"
         >
+
             <div class="container">
 
-                <p
-                    class="section-label"
-                    data-i18n="servicesLabel"
-                >
-                    Practice areas
-                </p>
+                <div class="section-introduction">
 
-                <h2 data-i18n="servicesTitle">
-                    Comprehensive legal support
-                </h2>
+                    <div>
+
+                        <p
+                            class="section-label"
+                            data-i18n="servicesLabel"
+                        >
+                            Practice areas
+                        </p>
+
+                        <h2 data-i18n="servicesTitle">
+                            Integrated legal support for complex matters.
+                        </h2>
+
+                    </div>
+
+                    <p data-i18n="servicesIntroduction">
+                        We provide clear advice and strategic representation
+                        across the principal areas of Lebanese private law,
+                        litigation and business law.
+                    </p>
+
+                </div>
 
                 <div class="services-grid">
 
@@ -305,10 +442,13 @@
                         </h3>
 
                         <p data-i18n="civilText">
-                            Advice and representation in civil claims,
-                            contractual obligations, compensation matters and
-                            disputes.
+                            Claims, contractual obligations, compensation
+                            matters and private disputes.
                         </p>
+
+                        <span class="service-arrow">
+                            →
+                        </span>
 
                     </article>
 
@@ -323,9 +463,13 @@
                         </h3>
 
                         <p data-i18n="criminalText">
-                            Legal assistance and representation during criminal
+                            Advice and representation in criminal
                             investigations and judicial proceedings.
                         </p>
+
+                        <span class="service-arrow">
+                            →
+                        </span>
 
                     </article>
 
@@ -340,9 +484,13 @@
                         </h3>
 
                         <p data-i18n="commercialText">
-                            Representation of companies and professionals in
-                            commercial disputes, negotiations and litigation.
+                            Business disputes, negotiations and court
+                            proceedings.
                         </p>
+
+                        <span class="service-arrow">
+                            →
+                        </span>
 
                     </article>
 
@@ -357,9 +505,13 @@
                         </h3>
 
                         <p data-i18n="corporateText">
-                            Legal support for companies, business operations,
-                            agreements and commercial transactions.
+                            Company matters, business agreements and
+                            commercial operations.
                         </p>
+
+                        <span class="service-arrow">
+                            →
+                        </span>
 
                     </article>
 
@@ -374,9 +526,13 @@
                         </h3>
 
                         <p data-i18n="contractsText">
-                            Drafting, reviewing and negotiating contracts for
-                            individuals, businesses and organisations.
+                            Drafting, reviewing and negotiating commercial
+                            and private agreements.
                         </p>
+
+                        <span class="service-arrow">
+                            →
+                        </span>
 
                     </article>
 
@@ -391,9 +547,13 @@
                         </h3>
 
                         <p data-i18n="disputesText">
-                            Strategic assistance in negotiation, settlement,
-                            mediation and litigation.
+                            Negotiation, settlement, mediation and
+                            litigation strategy.
                         </p>
+
+                        <span class="service-arrow">
+                            →
+                        </span>
 
                     </article>
 
@@ -408,9 +568,13 @@
                         </h3>
 
                         <p data-i18n="realEstateText">
-                            Assistance with property transactions, ownership,
-                            leases and real estate disputes.
+                            Property transactions, ownership, leases
+                            and real estate disputes.
                         </p>
+
+                        <span class="service-arrow">
+                            →
+                        </span>
 
                     </article>
 
@@ -425,22 +589,29 @@
                         </h3>
 
                         <p data-i18n="familyText">
-                            Confidential legal support in family-related
-                            matters and proceedings.
+                            Confidential advice and representation in
+                            family-related matters.
                         </p>
+
+                        <span class="service-arrow">
+                            →
+                        </span>
 
                     </article>
 
                 </div>
+
             </div>
+
         </section>
 
-        <!-- OUR PEOPLE -->
+        <!-- PEOPLE -->
 
         <section
             class="section people-section"
             id="people"
         >
+
             <div class="container">
 
                 <p
@@ -450,8 +621,11 @@
                     Our People
                 </p>
 
-                <h2 data-i18n="peopleSectionTitle">
-                    Legal experience and public engagement
+                <h2
+                    class="people-main-title"
+                    data-i18n="peopleSectionTitle"
+                >
+                    Legal experience and public engagement.
                 </h2>
 
                 <article class="lawyer-profile">
@@ -460,9 +634,17 @@
 
                         <img
                             src="ec27f5e7-7d77-425a-af87-6ff7bf29330d.png"
-                            alt="Abed Al Karim Hijazi, lawyer registered with the Beirut Bar Association"
+                            alt="Abed Al Karim Hijazi"
                             class="lawyer-photo"
                         >
+
+                        <div class="lawyer-photo-caption">
+
+                            <span data-i18n="lawyerPhotoCaption">
+                                Founder
+                            </span>
+
+                        </div>
 
                     </div>
 
@@ -486,36 +668,40 @@
                             Lawyer registered with the Beirut Bar Association
                         </p>
 
+                        <div class="profile-divider"></div>
+
                         <p data-i18n="lawyerParagraph1">
-                            Abed Al Karim Hijazi is a Lebanese lawyer and the
-                            founder of Abed Al Karim Hijazi Law Office. He has
-                            extensive experience advising and representing
-                            individuals and businesses in civil, commercial,
-                            criminal, real estate and family law matters.
+                            Abed Al Karim Hijazi is a Lebanese lawyer and
+                            founder of Abed Al Karim Hijazi Law Office.
+                            He has extensive experience advising and
+                            representing individuals and businesses in
+                            civil, commercial, criminal, real estate and
+                            family law matters.
                         </p>
 
                         <p data-i18n="lawyerParagraph2">
                             His practice is guided by close client
                             communication, careful legal analysis and a
-                            practical understanding of the Lebanese legal and
-                            institutional environment.
+                            practical understanding of the Lebanese legal
+                            and institutional environment.
                         </p>
 
                         <p data-i18n="lawyerParagraph3">
                             Alongside his legal practice, he hosts the weekly
-                            legal and political radio programme “Al Mouwaten Wal
-                            Kanoun” on Sawt Al Shaeb Radio. For more than four
-                            decades, the programme has featured discussions with
-                            legal professionals, academics, public figures and
-                            specialists on Lebanese and international legal and
-                            political affairs.
+                            legal and political radio programme
+                            “Al Mouwaten Wal Kanoun” on Sawt Al Shaeb Radio.
+                            For more than four decades, the programme has
+                            featured discussions with legal professionals,
+                            academics, public figures and specialists on
+                            Lebanese and international legal affairs.
                         </p>
 
                         <p data-i18n="lawyerParagraph4">
-                            Through his legal work and public dialogue, he
-                            contributes to making legal issues more accessible
-                            and encourages informed discussion about the rule of
-                            law, public institutions and citizens’ rights.
+                            Through his legal work and public dialogue,
+                            he contributes to making legal issues more
+                            accessible and encourages informed discussion
+                            about the rule of law, public institutions and
+                            citizens’ rights.
                         </p>
 
                         <div class="profile-highlights">
@@ -569,10 +755,13 @@
                             </div>
 
                         </div>
+
                     </div>
 
                 </article>
+
             </div>
+
         </section>
 
         <!-- APPROACH -->
@@ -581,6 +770,7 @@
             class="section approach-section"
             id="approach"
         >
+
             <div class="container approach-grid">
 
                 <div class="approach-introduction">
@@ -593,12 +783,14 @@
                     </p>
 
                     <h2 data-i18n="approachTitle">
-                        Clear advice. Strong representation.
+                        Calm analysis.
+                        Practical advice.
+                        Determined advocacy.
                     </h2>
 
                     <p data-i18n="approachDescription">
-                        Every matter is handled with care, confidentiality and
-                        close attention to the client’s objectives.
+                        Every matter is handled with care, confidentiality
+                        and close attention to the client’s objectives.
                     </p>
 
                 </div>
@@ -606,6 +798,10 @@
                 <div class="values-grid">
 
                     <div class="value-card">
+
+                        <span class="value-number">
+                            01
+                        </span>
 
                         <h3 data-i18n="experienceTitle">
                             Experience
@@ -620,45 +816,59 @@
 
                     <div class="value-card">
 
+                        <span class="value-number">
+                            02
+                        </span>
+
                         <h3 data-i18n="clarityTitle">
                             Clarity
                         </h3>
 
                         <p data-i18n="clarityText">
-                            Clear explanations that help clients understand
-                            their rights, risks and options.
+                            Clear explanations of the legal position,
+                            available options and practical consequences.
                         </p>
 
                     </div>
 
                     <div class="value-card">
+
+                        <span class="value-number">
+                            03
+                        </span>
 
                         <h3 data-i18n="confidentialityTitle">
                             Confidentiality
                         </h3>
 
                         <p data-i18n="confidentialityText">
-                            Discreet and professional handling of every legal
-                            matter.
+                            Discreet and professional handling of every
+                            legal matter.
                         </p>
 
                     </div>
 
                     <div class="value-card">
 
+                        <span class="value-number">
+                            04
+                        </span>
+
                         <h3 data-i18n="commitmentTitle">
                             Commitment
                         </h3>
 
                         <p data-i18n="commitmentText">
-                            Focused representation and responsive client
-                            service.
+                            Focused representation and responsive
+                            client service.
                         </p>
 
                     </div>
 
                 </div>
+
             </div>
+
         </section>
 
         <!-- CONTACT -->
@@ -667,9 +877,10 @@
             class="section contact-section"
             id="contact"
         >
+
             <div class="container contact-grid">
 
-                <div>
+                <div class="contact-introduction">
 
                     <p
                         class="section-label"
@@ -679,13 +890,25 @@
                     </p>
 
                     <h2 data-i18n="contactTitle">
-                        Discuss your legal matter with our office
+                        Discuss your legal matter with the firm.
                     </h2>
 
                     <p data-i18n="contactDescription">
-                        Contact us to request an appointment or receive more
-                        information about our legal services.
+                        Contact us to request an appointment or receive
+                        further information about our legal services.
                     </p>
+
+                    <a
+                        href="https://www.linkedin.com/company/abed-al-karim-hijazi-law-office/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="linkedin-link"
+                    >
+                        LinkedIn
+                        <span>
+                            ↗
+                        </span>
+                    </a>
 
                 </div>
 
@@ -748,7 +971,9 @@
                     </a>
 
                 </div>
+
             </div>
+
         </section>
 
         <!-- MAP -->
@@ -770,21 +995,70 @@
     <!-- FOOTER -->
 
     <footer class="site-footer">
+
         <div class="container footer-grid">
 
-            <div>
+            <div class="footer-brand">
 
-                <strong data-i18n="footerFirm">
-                    Abed Al Karim Hijazi Law Office
-                </strong>
+                <span class="footer-monogram">
+                    AH
+                </span>
+
+                <div>
+
+                    <strong data-i18n="footerFirm">
+                        Abed Al Karim Hijazi Law Office
+                    </strong>
+
+                    <p>
+                        مكتب عبد الكريم حجازي للمحاماة
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="footer-navigation">
+
+                <a
+                    href="#about"
+                    data-i18n="navAbout"
+                >
+                    About
+                </a>
+
+                <a
+                    href="#services"
+                    data-i18n="navServices"
+                >
+                    Services
+                </a>
+
+                <a
+                    href="#people"
+                    data-i18n="navPeople"
+                >
+                    Our People
+                </a>
+
+                <a
+                    href="#contact"
+                    data-i18n="navContact"
+                >
+                    Contact
+                </a>
+
+            </div>
+
+            <div class="footer-contact">
+
+                <a href="tel:+9613755909">
+                    +961 3 755 909
+                </a>
 
                 <p data-i18n="footerLocation">
                     Baabda, Lebanon
                 </p>
-
-            </div>
-
-            <div class="footer-links">
 
                 <a
                     href="https://www.linkedin.com/company/abed-al-karim-hijazi-law-office/"
@@ -792,10 +1066,6 @@
                     rel="noopener noreferrer"
                 >
                     LinkedIn
-                </a>
-
-                <a href="#contact">
-                    Contact
                 </a>
 
             </div>
@@ -806,24 +1076,34 @@
             >
                 The information on this website is provided for general
                 informational purposes only and does not constitute legal
-                advice. Contacting the office does not automatically create a
-                lawyer-client relationship.
+                advice.
             </p>
+
+        </div>
+
+        <div class="container footer-bottom">
 
             <p class="copyright">
 
                 © <span id="current-year"></span>
 
                 <span data-i18n="footerCopyright">
-                    Abed Al Karim Hijazi Law Office. All rights reserved.
+                    Abed Al Karim Hijazi Law Office.
+                    All rights reserved.
                 </span>
 
             </p>
 
+            <a href="#home">
+                ↑
+            </a>
+
         </div>
+
     </footer>
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
