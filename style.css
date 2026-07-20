@@ -745,13 +745,15 @@ body[dir="rtl"] .copyright {
     }
 
     .contact-card 
- .arabic-firm-name {
-    margin-bottom: 15px;
+.arabic-firm-name {
+    margin-bottom: 18px;
     color: #d4b779;
-    font-family: Cairo, Arial, sans-serif;
-    font-size: 1.8rem;
+    font-family: "Cairo", sans-serif;
+    font-size: 2rem;
     font-weight: 700;
+    line-height: 1.4;
     direction: rtl;
+    display: block;
 }
         padding: 28px 22px;
     }
