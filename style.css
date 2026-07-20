@@ -756,11 +756,32 @@ body[dir="rtl"] .copyright {
         padding: 28px 22px;
     }
 }
-.site-logo{
-    width:75px;
-    height:75px;
-    object-fit:contain;
-    margin-right:15px;
+.site-logo {
+    display: block;
+    width: 95px;
+    height: 65px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.site-header {
+    height: auto;
+}
+
+.nav-wrapper {
+    min-height: 84px;
+    max-height: 90px;
+    overflow: hidden;
+}
+@media (max-width: 650px) {
+    .site-logo {
+        width: 70px;
+        height: 52px;
+    }
+
+    .nav-wrapper {
+        min-height: 72px;
+        max-height: 78px;
+    }
 }
 
 .brand{
