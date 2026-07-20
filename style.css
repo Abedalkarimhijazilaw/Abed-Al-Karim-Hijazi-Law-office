@@ -756,12 +756,16 @@ body[dir="rtl"] .copyright {
         padding: 28px 22px;
     }
 }
-.site-logo {
-    width: 55px !important;
-    height: 55px !important;
-    object-fit: cover;
-    object-position: center;
-    overflow: hidden;
+.brand-symbol {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #b89455;
+    color: #d4b779;
+    font-family: "Libre Baskerville", Georgia, serif;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 .site-header {
     height: auto;
