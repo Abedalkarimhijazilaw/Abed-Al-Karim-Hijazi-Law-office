@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta name="google-site-verification" content="J9BkkwNG5fRKYp82zJRtVOno_a3aweKhmfxDaNPF9wU" />
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <title>Abed Al Karim Hijazi Law Office | Beirut, Lebanon</title>
+    <title>
+        Abed Al Karim Hijazi Law Office | Lawyers in Baabda, Lebanon
+    </title>
 
     <meta
         name="description"
-        content="Abed Al Karim Hijazi Law Office is a full-service law firm providing legal services to individuals and businesses across Lebanon and the Middle East since 1992."
+        content="Abed Al Karim Hijazi Law Office is a full-service law firm in Baabda, Lebanon, providing legal advice, representation and dispute resolution since 1992."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap"
+        rel="stylesheet"
     >
 
     <link rel="stylesheet" href="style.css">
@@ -18,240 +35,701 @@
 
 <body>
 
-    <header>
-        <nav class="container">
-            <a href="#home" class="logo">
-                ABED AL KARIM HIJAZI LAW OFFICE
+    <!-- HEADER -->
+
+    <header class="site-header">
+        <div class="container nav-wrapper">
+
+            <a href="#home" class="brand">
+                <span class="brand-symbol">AH</span>
+
+                <span class="brand-name">
+                    <strong data-i18n="brandName">
+                        Abed Al Karim Hijazi
+                    </strong>
+
+                    <small data-i18n="brandSubtitle">
+                        Law Office
+                    </small>
+                </span>
             </a>
 
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <nav class="main-navigation">
+
+                <a href="#home" data-i18n="navHome">
+                    Home
+                </a>
+
+                <a href="#about" data-i18n="navAbout">
+                    About
+                </a>
+
+                <a href="#services" data-i18n="navServices">
+                    Services
+                </a>
+
+                <a href="#people" data-i18n="navPeople">
+                    Our People
+                </a>
+
+                <a href="#approach" data-i18n="navApproach">
+                    Our Approach
+                </a>
+
+                <a href="#contact" data-i18n="navContact">
+                    Contact
+                </a>
+
+                <div
+                    class="language-switcher"
+                    aria-label="Language selector"
+                >
+                    <button
+                        type="button"
+                        data-lang="en"
+                        class="active"
+                    >
+                        EN
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="fr"
+                    >
+                        FR
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="ar"
+                    >
+                        AR
+                    </button>
+                </div>
+
+            </nav>
+        </div>
     </header>
 
     <main>
 
-        <!-- HOME -->
+        <!-- HERO -->
+
         <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
             <div class="container hero-content">
 
-                <p class="intro">
-                    Full-Service Law Firm
+                <p
+                    class="eyebrow"
+                    data-i18n="heroEyebrow"
+                >
+                    Full-service law firm since 1992
                 </p>
 
-                <h1>
-                    Comprehensive legal solutions across Lebanon and the
-                    Middle East
+                <h1 data-i18n="heroTitle">
+                    Trusted legal counsel in Lebanon and across the Middle East
                 </h1>
 
-                <p class="hero-text">
-                    Abed Al Karim Hijazi Law Office provides practical,
-                    reliable, and confidential legal assistance to individuals
-                    and businesses.
+                <p
+                    class="hero-description"
+                    data-i18n="heroDescription"
+                >
+                    We provide practical legal advice, strategic representation,
+                    contract drafting and dispute resolution for individuals,
+                    companies and organisations.
                 </p>
 
-                <a href="#contact" class="button">
-                    Contact Our Office
-                </a>
+                <div class="hero-buttons">
+
+                    <a
+                        href="#contact"
+                        class="button button-primary"
+                        data-i18n="heroContact"
+                    >
+                        Contact our office
+                    </a>
+
+                    <a
+                        href="#services"
+                        class="button button-outline"
+                        data-i18n="heroServices"
+                    >
+                        Explore our services
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- STATISTICS -->
+
+        <section class="statistics">
+            <div class="container statistics-grid">
+
+                <div class="statistic">
+                    <strong>1992</strong>
+
+                    <span data-i18n="statFounded">
+                        Established
+                    </span>
+                </div>
+
+                <div class="statistic">
+                    <strong>30+</strong>
+
+                    <span data-i18n="statExperience">
+                        Years of legal practice
+                    </span>
+                </div>
+
+                <div class="statistic">
+                    <strong data-i18n="statRegionValue">
+                        Lebanon & MENA
+                    </strong>
+
+                    <span data-i18n="statRegion">
+                        Regional legal services
+                    </span>
+                </div>
 
             </div>
         </section>
 
         <!-- ABOUT -->
-        <section id="about">
-            <div class="container">
 
-                <p class="section-label">
-                    About the Firm
-                </p>
+        <section class="section" id="about">
+            <div class="container two-column-section">
 
-                <h2>
-                    Serving clients in Lebanon since 1992
-                </h2>
+                <div>
+                    <p
+                        class="section-label"
+                        data-i18n="aboutLabel"
+                    >
+                        About the firm
+                    </p>
 
-                <p>
-                    Abed Al Karim Hijazi Law Office is a full-service law firm
-                    based in Beirut, Lebanon. Since 1992, the firm has provided
-                    comprehensive legal services to individuals, businesses,
-                    and organisations across Lebanon and the Middle East.
-                </p>
+                    <h2 data-i18n="aboutTitle">
+                        Legal service built on experience, discretion and trust
+                    </h2>
+                </div>
 
-                <br>
+                <div class="text-content">
 
-                <p>
-                    We provide practical legal advice, draft and review
-                    contracts, assist clients in resolving disputes, and
-                    represent them before Lebanese courts and public
-                    authorities.
-                </p>
+                    <p data-i18n="aboutParagraph1">
+                        Abed Al Karim Hijazi Law Office is a full-service law
+                        firm based in Baabda, Lebanon. Since 1992, the firm has
+                        advised and represented individuals, companies and
+                        organisations in a broad range of legal matters.
+                    </p>
 
+                    <p data-i18n="aboutParagraph2">
+                        The firm combines careful legal analysis with practical
+                        advice. We assist clients in negotiations, commercial
+                        transactions, contract matters, disputes and proceedings
+                        before Lebanese courts and public authorities.
+                    </p>
+
+                    <p data-i18n="aboutParagraph3">
+                        Our objective is to help clients understand their legal
+                        position, evaluate their options and make informed
+                        decisions with confidence.
+                    </p>
+
+                </div>
             </div>
         </section>
 
         <!-- SERVICES -->
-        <section class="services" id="services">
+
+        <section
+            class="section services-section"
+            id="services"
+        >
             <div class="container">
 
-                <p class="section-label">
-                    Legal Services
+                <p
+                    class="section-label"
+                    data-i18n="servicesLabel"
+                >
+                    Practice areas
                 </p>
 
-                <h2>
-                    Our areas of practice
+                <h2 data-i18n="servicesTitle">
+                    Comprehensive legal support
                 </h2>
 
-                <div class="service-grid">
+                <div class="services-grid">
 
-                    <article class="card">
-                        <h3>Civil Law</h3>
+                    <article class="service-card">
+                        <span class="service-number">01</span>
 
-                        <p>
-                            Legal advice and representation in civil claims,
-                            obligations, compensation matters, and disputes
-                            between individuals or businesses.
+                        <h3 data-i18n="civilTitle">
+                            Civil Law
+                        </h3>
+
+                        <p data-i18n="civilText">
+                            Advice and representation in civil claims,
+                            contractual obligations, compensation matters and
+                            disputes.
                         </p>
                     </article>
 
-                    <article class="card">
-                        <h3>Criminal Law</h3>
+                    <article class="service-card">
+                        <span class="service-number">02</span>
 
-                        <p>
-                            Legal representation and assistance in criminal
-                            investigations and proceedings before Lebanese
-                            courts and authorities.
+                        <h3 data-i18n="criminalTitle">
+                            Criminal Law
+                        </h3>
+
+                        <p data-i18n="criminalText">
+                            Legal assistance and representation during criminal
+                            investigations and judicial proceedings.
                         </p>
                     </article>
 
-                    <article class="card">
-                        <h3>Commercial Litigation</h3>
+                    <article class="service-card">
+                        <span class="service-number">03</span>
 
-                        <p>
+                        <h3 data-i18n="commercialTitle">
+                            Commercial Litigation
+                        </h3>
+
+                        <p data-i18n="commercialText">
                             Representation of companies and professionals in
-                            commercial disputes, negotiations, and court
-                            proceedings.
+                            commercial disputes, negotiations and litigation.
                         </p>
                     </article>
 
-                    <article class="card">
-                        <h3>Corporate Law</h3>
+                    <article class="service-card">
+                        <span class="service-number">04</span>
 
-                        <p>
+                        <h3 data-i18n="corporateTitle">
+                            Corporate Law
+                        </h3>
+
+                        <p data-i18n="corporateText">
                             Legal support for companies, business operations,
-                            corporate matters, agreements, and commercial
-                            transactions.
+                            agreements and commercial transactions.
                         </p>
                     </article>
 
-                    <article class="card">
-                        <h3>Contract Drafting</h3>
+                    <article class="service-card">
+                        <span class="service-number">05</span>
 
-                        <p>
-                            Drafting, reviewing, and negotiating contracts for
-                            individuals, businesses, and organisations.
+                        <h3 data-i18n="contractsTitle">
+                            Contract Drafting
+                        </h3>
+
+                        <p data-i18n="contractsText">
+                            Drafting, reviewing and negotiating contracts for
+                            individuals, businesses and organisations.
                         </p>
                     </article>
 
-                    <article class="card">
-                        <h3>Dispute Resolution</h3>
+                    <article class="service-card">
+                        <span class="service-number">06</span>
 
-                        <p>
-                            Strategic assistance in negotiations, settlements,
-                            mediation, and litigation.
+                        <h3 data-i18n="disputesTitle">
+                            Dispute Resolution
+                        </h3>
+
+                        <p data-i18n="disputesText">
+                            Strategic assistance in negotiation, settlement,
+                            mediation and litigation.
                         </p>
                     </article>
 
-                    <article class="card">
-                        <h3>Real Estate Law</h3>
+                    <article class="service-card">
+                        <span class="service-number">07</span>
 
-                        <p>
-                            Assistance with property transactions, ownership
-                            matters, leases, construction disputes, and other
-                            real estate issues.
+                        <h3 data-i18n="realEstateTitle">
+                            Real Estate Law
+                        </h3>
+
+                        <p data-i18n="realEstateText">
+                            Assistance with property transactions, ownership,
+                            leases and real estate disputes.
                         </p>
                     </article>
 
-                    <article class="card">
-                        <h3>Family Law</h3>
+                    <article class="service-card">
+                        <span class="service-number">08</span>
 
-                        <p>
-                            Confidential legal support in family-related
-                            matters and proceedings.
+                        <h3 data-i18n="familyTitle">
+                            Family Law
+                        </h3>
+
+                        <p data-i18n="familyText">
+                            Confidential legal support in family-related matters
+                            and proceedings.
                         </p>
                     </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR PEOPLE -->
+
+        <section class="section people-section" id="people">
+            <div class="container">
+
+                <p
+                    class="section-label"
+                    data-i18n="peopleLabel"
+                >
+                    Our People
+                </p>
+
+                <h2 data-i18n="peopleSectionTitle">
+                    Legal experience and public engagement
+                </h2>
+
+                <article class="lawyer-profile">
+
+                    <div class="lawyer-visual">
+
+                        <div class="lawyer-initials">
+                            AKH
+                        </div>
+
+                        <p data-i18n="photoNote">
+                            Professional portrait can be added here
+                        </p>
+
+                    </div>
+
+                    <div class="lawyer-information">
+
+                        <p
+                            class="profile-role"
+                            data-i18n="lawyerRole"
+                        >
+                            Lawyer and Founder
+                        </p>
+
+                        <h3 data-i18n="lawyerName">
+                            Abed Al Karim Hijazi
+                        </h3>
+
+                        <p
+                            class="profile-membership"
+                            data-i18n="lawyerMembership"
+                        >
+                            Lawyer registered with the Beirut Bar Association
+                        </p>
+
+                        <p data-i18n="lawyerParagraph1">
+                            Abed Al Karim Hijazi is a Lebanese lawyer and the
+                            founder of Abed Al Karim Hijazi Law Office. He has
+                            extensive experience advising and representing
+                            individuals and businesses in civil, commercial,
+                            criminal, real estate and family law matters.
+                        </p>
+
+                        <p data-i18n="lawyerParagraph2">
+                            His practice is guided by close client communication,
+                            careful legal analysis and a practical understanding
+                            of the Lebanese legal and institutional environment.
+                        </p>
+
+                        <p data-i18n="lawyerParagraph3">
+                            Alongside his legal practice, he hosts the weekly
+                            legal and political radio programme “Al Mouwaten Wal
+                            Kanoun” on Sawt Al Shaeb Radio. For more than four
+                            decades, the programme has featured discussions with
+                            legal professionals, academics, public figures and
+                            specialists on Lebanese and international legal and
+                            political affairs.
+                        </p>
+
+                        <p data-i18n="lawyerParagraph4">
+                            Through his legal work and public dialogue, he
+                            contributes to making legal issues more accessible
+                            and encourages informed discussion about the rule of
+                            law, public institutions and citizens’ rights.
+                        </p>
+
+                        <div class="profile-highlights">
+
+                            <div>
+                                <span data-i18n="highlight1Title">
+                                    Professional affiliation
+                                </span>
+
+                                <strong data-i18n="highlight1Text">
+                                    Beirut Bar Association
+                                </strong>
+                            </div>
+
+                            <div>
+                                <span data-i18n="highlight2Title">
+                                    Media programme
+                                </span>
+
+                                <strong data-i18n="highlight2Text">
+                                    Al Mouwaten Wal Kanoun
+                                </strong>
+                            </div>
+
+                            <div>
+                                <span data-i18n="highlight3Title">
+                                    Radio station
+                                </span>
+
+                                <strong data-i18n="highlight3Text">
+                                    Sawt Al Shaeb
+                                </strong>
+                            </div>
+
+                            <div>
+                                <span data-i18n="highlight4Title">
+                                    Focus
+                                </span>
+
+                                <strong data-i18n="highlight4Text">
+                                    Lebanese and international legal affairs
+                                </strong>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+
+        <!-- APPROACH -->
+
+        <section
+            class="section approach-section"
+            id="approach"
+        >
+            <div class="container approach-grid">
+
+                <div class="approach-introduction">
+
+                    <p
+                        class="section-label section-label-light"
+                        data-i18n="approachLabel"
+                    >
+                        Our approach
+                    </p>
+
+                    <h2 data-i18n="approachTitle">
+                        Clear advice. Strong representation.
+                    </h2>
+
+                    <p data-i18n="approachDescription">
+                        Every matter is handled with care, confidentiality and
+                        close attention to the client’s objectives.
+                    </p>
+
+                </div>
+
+                <div class="values-grid">
+
+                    <div class="value-card">
+                        <h3 data-i18n="experienceTitle">
+                            Experience
+                        </h3>
+
+                        <p data-i18n="experienceText">
+                            Decades of legal practice and knowledge of the
+                            Lebanese legal environment.
+                        </p>
+                    </div>
+
+                    <div class="value-card">
+                        <h3 data-i18n="clarityTitle">
+                            Clarity
+                        </h3>
+
+                        <p data-i18n="clarityText">
+                            Clear explanations that help clients understand
+                            their rights, risks and options.
+                        </p>
+                    </div>
+
+                    <div class="value-card">
+                        <h3 data-i18n="confidentialityTitle">
+                            Confidentiality
+                        </h3>
+
+                        <p data-i18n="confidentialityText">
+                            Discreet and professional handling of every legal
+                            matter.
+                        </p>
+                    </div>
+
+                    <div class="value-card">
+                        <h3 data-i18n="commitmentTitle">
+                            Commitment
+                        </h3>
+
+                        <p data-i18n="commitmentText">
+                            Focused representation and responsive client
+                            service.
+                        </p>
+                    </div>
 
                 </div>
             </div>
         </section>
 
         <!-- CONTACT -->
-        <section id="contact">
-            <div class="container">
 
-                <p class="section-label">
-                    Contact
-                </p>
+        <section
+            class="section contact-section"
+            id="contact"
+        >
+            <div class="container contact-grid">
 
-                <h2>
-                    Contact Abed Al Karim Hijazi Law Office
-                </h2>
+                <div>
 
-                <p>
-                    Contact our office to discuss your legal matter and request
-                    an appointment.
-                </p>
-
-                <div class="contact-box">
-
-                    <p>
-                        <strong>Telephone:</strong>
-
-                        <a href="tel:+9613755909">
-                            +961 3 755 909
-                        </a>
+                    <p
+                        class="section-label"
+                        data-i18n="contactLabel"
+                    >
+                        Contact
                     </p>
 
-                    <p>
-                        <strong>Location:</strong>
-                        Jamhour Street, Beirut, Lebanon
-                    </p>
+                    <h2 data-i18n="contactTitle">
+                        Discuss your legal matter with our office
+                    </h2>
 
-                    <p>
-                        <strong>Service Area:</strong>
-                        Lebanon and the Middle East
-                    </p>
-
-                    <p>
-                        <strong>Established:</strong>
-                        1992
+                    <p data-i18n="contactDescription">
+                        Contact us to request an appointment or receive more
+                        information about our legal services.
                     </p>
 
                 </div>
 
-                <p class="disclaimer">
-                    Information presented on this website is provided for
-                    general informational purposes only and does not constitute
-                    legal advice. Contacting the office does not automatically
-                    establish a lawyer-client relationship. Please do not send
-                    confidential or time-sensitive information before legal
-                    representation is confirmed.
-                </p>
+                <div class="contact-card">
 
+                    <div class="contact-detail">
+
+                        <span data-i18n="telephoneLabel">
+                            Telephone
+                        </span>
+
+                        <a href="tel:+9613755909">
+                            +961 3 755 909
+                        </a>
+
+                    </div>
+
+                    <div class="contact-detail">
+
+                        <span data-i18n="addressLabel">
+                            Address
+                        </span>
+
+                        <p data-i18n="addressText">
+                            Jamhour Street, Baabda, Lebanon
+                        </p>
+
+                    </div>
+
+                    <div class="contact-detail">
+
+                        <span data-i18n="hoursLabel">
+                            Opening hours
+                        </span>
+
+                        <p data-i18n="hoursText">
+                            Monday–Saturday, 8:00–20:00
+                        </p>
+
+                    </div>
+
+                    <div class="contact-detail">
+
+                        <span data-i18n="serviceAreaLabel">
+                            Service area
+                        </span>
+
+                        <p data-i18n="serviceAreaText">
+                            Lebanon and the Middle East
+                        </p>
+
+                    </div>
+
+                    <a
+                        href="tel:+9613755909"
+                        class="button button-primary button-full"
+                        data-i18n="callButton"
+                    >
+                        Call the office
+                    </a>
+
+                </div>
             </div>
+        </section>
+
+        <!-- MAP -->
+
+        <section class="map-section">
+
+            <iframe
+                title="Abed Al Karim Hijazi Law Office location"
+                src="https://www.google.com/maps?q=Jamhour%20Street%20Baabda%20Lebanon&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+
         </section>
 
     </main>
 
-    <footer>
-        <div class="container">
-            <p>
-                © 2026 Abed Al Karim Hijazi Law Office. All rights reserved.
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+
+            <div>
+                <strong data-i18n="footerFirm">
+                    Abed Al Karim Hijazi Law Office
+                </strong>
+
+                <p data-i18n="footerLocation">
+                    Baabda, Lebanon
+                </p>
+            </div>
+
+            <p
+                class="legal-disclaimer"
+                data-i18n="footerDisclaimer"
+            >
+                The information on this website is provided for general
+                informational purposes only and does not constitute legal
+                advice. Contacting the office does not automatically create a
+                lawyer-client relationship.
             </p>
+
+            <p class="copyright">
+                © <span id="current-year"></span>
+                <span data-i18n="footerCopyright">
+                    Abed Al Karim Hijazi Law Office. All rights reserved.
+                </span>
+            </p>
+
         </div>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
