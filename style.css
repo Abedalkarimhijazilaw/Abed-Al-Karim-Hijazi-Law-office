@@ -22,3 +22,10 @@ html[lang='ar']{--heading:'Cairo',sans-serif;--body:'Cairo',sans-serif}html[lang
 @media(max-width:700px){.site-header{grid-template-columns:30px 1fr 65px;gap:6px}.wordmark strong{font-size:clamp(12px,3.8vw,19px);letter-spacing:0}}
 
 @media(max-width:700px){.hero h1{font-size:clamp(29px,8.8vw,49px)}}
+/* Hide decorative arrows */
+.row-arrow,
+.menu-arrow,
+a > span[aria-hidden="true"],
+.footer-social > span:last-child {
+  display: none !important;
+}
