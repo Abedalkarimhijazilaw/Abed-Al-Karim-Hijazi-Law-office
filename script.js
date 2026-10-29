@@ -49,3 +49,17 @@
   try { saved = localStorage.getItem('preferredLanguage'); } catch (_) {}
   changeLanguage(saved || 'en');
 })();
+// Remove decorative arrows throughout the website.
+function removeArrows() {
+  document.querySelectorAll("a span").forEach(function (span) {
+    if (/^[↗↖↘↙→←↑↓\uFE0E\uFE0F\s]+$/.test(span.textContent)) {
+      span.remove();
+    }
+  });
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", removeArrows);
+} else {
+  removeArrows();
+}
