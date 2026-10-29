@@ -63,3 +63,41 @@ if (document.readyState === "loading") {
 } else {
   removeArrows();
 }
+// WhatsApp contact button
+(function () {
+  function addWhatsApp() {
+    if (document.getElementById("whatsapp-contact")) return;
+
+    const link = document.createElement("a");
+    link.id = "whatsapp-contact";
+    link.href = "https://wa.me/96171378653";
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "Chat on WhatsApp";
+    link.setAttribute("aria-label", "Contact our office on WhatsApp");
+
+    Object.assign(link.style, {
+      position: "fixed",
+      bottom: "20px",
+      right: "20px",
+      zIndex: "40",
+      padding: "13px 20px",
+      background: "#0f1822",
+      color: "#f3f1ec",
+      border: "1px solid #b7a17a",
+      borderRadius: "4px",
+      fontFamily: "inherit",
+      fontSize: "14px",
+      textDecoration: "none",
+      boxShadow: "0 4px 18px rgba(0,0,0,0.15)"
+    });
+
+    document.body.appendChild(link);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", addWhatsApp);
+  } else {
+    addWhatsApp();
+  }
+})();
