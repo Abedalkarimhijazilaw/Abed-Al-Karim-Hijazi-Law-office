@@ -732,3 +732,71 @@ window.siteTranslations = {
     "pageSuffix": "مكتب عبد الكريم حجازي للمحاماة"
   }
 };
+
+/* Hussein Hijazi — Team Profile */
+
+// ENGLISH
+Object.assign(window.siteTranslations.en, {
+  peopleNewText: "Meet the founder and legal team behind our firm.",
+  peopleLink: "Meet our team",
+  aboutLink: "Meet our team",
+
+  husseinName: "Hussein Hijazi",
+  husseinRole: "Junior Associate",
+  husseinBio: "Hussein Hijazi is a Junior Associate at Abed Al Karim Hijazi Law Office. He holds a Bachelor's degree and a Master's 1 in French-Lebanese Comparative Private Law, as well as a Master's 2 in Domestic and International Business Law, from the Lebanese University. His practice focuses on domestic and regional dispute resolution, business law, and contract drafting.",
+
+  husseinFocusTitle: "Areas of Focus",
+  husseinFocus1: "Domestic and Regional Dispute Resolution",
+  husseinFocus2: "Business Law",
+  husseinFocus3: "Contract Drafting",
+
+  husseinEducationTitle: "Education",
+  husseinUniversity: "Lebanese University – Filière Francophone de Droit",
+  husseinDegree1: "Master's 2 in Domestic and International Business Law",
+  husseinDegree2: "Master's 1 in French-Lebanese Comparative Private Law",
+  husseinDegree3: "Bachelor's Degree in French-Lebanese Comparative Private Law"
+});
+
+// FRENCH
+Object.assign(window.siteTranslations.fr, {
+  peopleNewText: "Découvrez le fondateur et l'équipe juridique du cabinet.",
+  peopleLink: "Découvrir notre équipe",
+  aboutLink: "Découvrir notre équipe",
+
+  husseinName: "Hussein Hijazi",
+  husseinRole: "Collaborateur junior",
+  husseinBio: "Hussein Hijazi est collaborateur junior au sein du cabinet Abed Al Karim Hijazi Law Office. Diplômé de l'Université libanaise, il est titulaire d'une licence et d'un Master 1 en droit privé comparé franco-libanais, ainsi que d'un Master 2 en droit des affaires interne et international. Il intervient principalement en matière de règlement des différends internes et régionaux, de droit des affaires et de rédaction de contrats.",
+
+  husseinFocusTitle: "Domaines d'intervention",
+  husseinFocus1: "Contentieux et règlement des différends internes et régionaux",
+  husseinFocus2: "Droit des affaires",
+  husseinFocus3: "Rédaction de contrats",
+
+  husseinEducationTitle: "Formation",
+  husseinUniversity: "Université libanaise – Filière Francophone de Droit",
+  husseinDegree1: "Master 2 en droit des affaires interne et international",
+  husseinDegree2: "Master 1 en droit privé comparé franco-libanais",
+  husseinDegree3: "Licence en droit privé comparé franco-libanais"
+});
+
+// ARABIC
+Object.assign(window.siteTranslations.ar, {
+  peopleNewText: "تعرّفوا إلى مؤسس المكتب وفريقه القانوني.",
+  peopleLink: "تعرّفوا إلى فريقنا",
+  aboutLink: "تعرّفوا إلى فريقنا",
+
+  husseinName: "حسين حجازي",
+  husseinRole: "محامٍ متدرّج",
+  husseinBio: "حسين حجازي محامٍ متدرّج في مكتب عبد الكريم حجازي للمحاماة. يحمل إجازة في الحقوق وماستر 1 في القانون الخاص المقارن اللبناني والفرنسي، بالإضافة إلى ماستر 2 في قانون الأعمال الداخلي والدولي من الجامعة اللبنانية. يتركّز عمله على تسوية النزاعات المحلية والإقليمية، وقانون الأعمال، وصياغة العقود.",
+
+  husseinFocusTitle: "مجالات الاختصاص",
+  husseinFocus1: "تسوية النزاعات المحلية والإقليمية",
+  husseinFocus2: "قانون الأعمال",
+  husseinFocus3: "صياغة العقود",
+
+  husseinEducationTitle: "المؤهلات العلمية",
+  husseinUniversity: "الجامعة اللبنانية – شعبة الحقوق باللغة الفرنسية",
+  husseinDegree1: "ماستر 2 في قانون الأعمال الداخلي والدولي",
+  husseinDegree2: "ماستر 1 في القانون الخاص المقارن اللبناني والفرنسي",
+  husseinDegree3: "إجازة في الحقوق – القانون الخاص المقارن اللبناني والفرنسي"
+});
